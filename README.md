@@ -3,8 +3,7 @@
     <h2>Інструкція по запуску</h2>
     <ol>
         <li>Клонуйте репозиторій до себе на комп'ютер:
-            <pre><code>git clone &lt;URL вашого репозиторію&gt;
-cd &lt;ім'я папки вашого репозиторію&gt;</code></pre>
+            <pre><code>git clone https://github.com/Yaroslavv05/TestTaskInterBox.git;</code></pre>
         </li>
         <li>Побудуйте Docker образ:
             <pre><code>docker build -t task_runner .</code></pre>
